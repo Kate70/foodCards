@@ -1,0 +1,51 @@
+.header{
+   margin: 0;
+   display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: inherit;    
+    border-color: rgb(80, 75, 75);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 16px 8px;
+    color: rgb(94, 92, 89);
+
+}
+.links{
+    padding-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 23px;
+    position: relative;
+    
+}
+.user-photo{  
+    margin: 25px;
+    width: 45px; 
+    border-radius: 50%;
+}
+.logout{
+    width: auto;
+    height: auto;
+    position: absolute;
+    padding: 10px;
+    margin-right: 6px;
+    top: 78px;
+    background-color: rgb(194, 204, 213);    
+    box-shadow: 1px 1px black;
+
+}
+.link{
+   
+}
+.link:active{
+   
+border-bottom: 3px solid;
+border-bottom-color: rgba(4, 8, 14, 0.2);
+cursor: pointer;
+}
+.icon{
+    left: 220px;
+    top: 8px;
+    position: absolute;
+}

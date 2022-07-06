@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+.container1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.userForm{
+    
+
+
+    width: 600px;
+    height: 560px;
+    border: 1px solid black;
+    margin: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+label{
+	display:block;
+	margin-bottom: 7px;
+	font-weight: 600;
+}
+
+
+.required{
+	color:red;
+	font-weight:normal;
+	font-size: 12px;
+}
+.input-field{
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	height: auto;
+	margin: 15px;
+}
+.form-input{
+	border-bottom: 1px solid black;
+	margin-bottom: 12px;
+	margin-top: 16px;
+	outline:none;
+}
+.submit-btn{
+	padding: 6px 15px;
+	border: 2px solid rgb(72, 70, 70);
+	border-radius: 13px;
+}
+.submit-btn:hover{
+	background-color: rgb(60, 59, 59);
+	color: #F1F1F1;
+}

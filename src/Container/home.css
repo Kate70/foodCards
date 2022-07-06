@@ -1,0 +1,12 @@
+.drigcol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #fff;
+    margin: 5px 22px;
+    border: 1px solid black;
+}
+.categ{
+    display: flex;
+    gap: 600px;
+}
